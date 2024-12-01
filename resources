@@ -1,0 +1,20 @@
+video_configs = {
+    "video1.mp4": {
+        "Customers": {"coords": np.array([(50,80), (550, 80), (650, 180), (370, 530)], np.int32), "count": 0, "detected_people": {}},
+        "Employees1": {"coords": np.array([(20, 100), (80, 60), (350, 500), (150, 600)], np.int32), "count": 0, "detected_people": {}},
+        "Employees2": {"coords": np.array([(450, 450), (450, 570), (680, 570), (700, 100)], np.int32), "count": 0, "detected_people": {}}
+    },
+    "video2.mp4": {
+        "Customers": {"coords": np.array([(50,80), (550, 80), (650, 180), (370, 530)], np.int32), "count": 0, "detected_people": {}},
+        "Employees1": {"coords": np.array([(20, 100), (80, 60), (350, 500), (150, 600)], np.int32), "count": 0, "detected_people": {}},
+        "Employees2": {"coords": np.array([(450, 450), (450, 570), (680, 570), (700, 100)], np.int32), "count": 0, "detected_people": {}}
+    },
+    "video3.mp4": {
+         "Customers": {"coords": np.array([(350,0), (800, 0), (800, 580), (280, 580)], np.int32), "count": 0, "detected_people": {}},
+        "Employees1": {"coords": np.array([(100,0), (320, 0), (270, 550), (50, 530)], np.int32), "count": 0, "detected_people": {}}
+    },
+    "video5.mp4": {
+        "Customers": {"coords": np.array([(120,270), (450, 120), (780, 350), (350, 680)], np.int32), "count": 0, "detected_people": {}},
+        "Employees1": {"coords": np.array([(10,180), (90, 160), (480, 780), (100, 780)], np.int32), "count": 0, "detected_people": {}}
+    }
+}
